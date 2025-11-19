@@ -1,2 +1,4 @@
 # Dissertacao
 Material utilizado para a dissertação titulada "PREDIÇÃO DA ENERGIA DE LIGAÇÃO DE ÉXCITONS UTILIZANDO APRENDIZAGEM DE MÁQUINA". Aqui, encontra-se os códigos para a montagem do modelo e os datasets utilizados.   
+
+O arquivo titulado "projeto" contém todo o processo de escolha do modelo e otimização do melhor modelo. Os arquivos "Boruta_no_gap" e "Boruta_gap" contém o modelo com o melhor algoritmo escolhido e a utilização do Boruta para achar as melhore features para ele. Encorajo contatar os autores da C2DB para obter o mais recente arquivo para o uso do banco de dados, visto que o arquivo utilizado neste trabalho é de alguns anos atrás. Ao invés disso, para carregar o dataset montado, utilize a linha de código no início do do arquivo "Boruta_gap", substituindo o dataset para "dataset_regression_final_full". 
